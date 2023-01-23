@@ -7,7 +7,6 @@ if (x > 0) {
     console.log("imprimindo dentro do if: ");
     console.log(a);
     console.log(b);
-    console.log(c);
 }
 
 console.log("imprimindo fora do if: ");
