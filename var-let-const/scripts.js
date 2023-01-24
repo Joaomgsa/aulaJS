@@ -11,5 +11,6 @@ if (x > 0) {
 
 console.log("imprimindo fora do if: ");
     console.log(a);
+    console.log("b não foi definido, pois let é uma variável de escopo local");
    // console.log(b);
    // console.log(c);
