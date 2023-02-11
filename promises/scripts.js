@@ -24,3 +24,5 @@ minhaPromise.then(valor => {
 .catch(valor => {
     console.log("Rejeitada com o valor " + valor);
 });
+
+console.log(minhaPromise);
