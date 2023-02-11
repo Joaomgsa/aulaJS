@@ -10,10 +10,13 @@ function  dizerbomdia(nome) {
 
 setTimeout(() => {
     dizerbomdia("Maria");
+    setTimeout(() => {
+        dizerbomdia("João");
+        setTimeout(() => {
+            dizerbomdia("Ana");
+        }, 2000);
+    }, 2000);
 }, 2000);
 
-console.log("Antes do setTimeout");
 console.log("A");
-
-
-//Como é a ordem de execução do código acima?
+console.log("B");
