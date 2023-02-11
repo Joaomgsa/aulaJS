@@ -1,9 +1,13 @@
 function f(g, h){
-    if (10 > 0){
-        g("P");
-    }else{
-        h("Q");
+    setTimeout(() => {
+        if (10 > 0){
+            g("P");
+        }else{
+            h("Q");
+        }
     }
+    , 3000);
+    
 }
 
 
